@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".options"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Опции"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/f"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorPrimaryblack"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Joooooom"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/f"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/ali"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Достижения"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/school"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/achivmens"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Кейсы"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/achivmens"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/cases"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Я Тёрачка"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/ali"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/shop"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Развитие"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/shop"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/school"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="-10dp"
+        android:text=" Назад "
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_above="@+id/backM"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/back"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="В главное меню"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/backM"/>
+
+</RelativeLayout>

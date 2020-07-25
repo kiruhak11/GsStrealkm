@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Информация"
+        android:textColor="@color/colorPrimaryblack"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:fontFamily="@font/hack"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/q"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/q"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/hack"
+            android:gravity="center"
+            android:text="@string/info"
+            android:textColor="@color/colorPrimaryblack"
+            android:textSize="30dp"
+            android:id="@+id/txt"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:text="(Разработчик)"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:clickable="true"
+        android:id="@+id/raz"
+        android:fontFamily="@font/hack"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="0dp"
+        android:text=" Назад "
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/back"/>
+
+
+
+</RelativeLayout>

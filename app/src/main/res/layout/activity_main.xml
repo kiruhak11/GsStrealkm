@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GS"
+        android:textSize="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/f"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorPrimaryblack"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stream"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorPrimaryblack"
+        android:id="@+id/qwe"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/v"
+        android:textColor="@color/colorPrimaryblack"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:id="@+id/psh"/>
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Start"
+    android:layout_marginTop="80dp"
+    android:textSize="60dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/qwe"
+    android:fontFamily="@font/hack"
+    android:id="@+id/start"
+        android:textColor="@color/colorPrimaryblackBt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="info"
+        android:layout_marginTop="30dp"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/start"
+        android:fontFamily="@font/hack"
+        android:id="@+id/info"
+        android:textColor="@color/colorPrimaryblackBt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="promo"
+        android:layout_marginTop="30dp"
+        android:textSize="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/info"
+        android:fontFamily="@font/hack"
+        android:id="@+id/promo"
+        android:textColor="@color/colorPrimaryblackBt"/>
+
+
+
+</RelativeLayout>

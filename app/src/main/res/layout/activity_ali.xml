@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ali"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joooooom"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/f"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorPrimaryblack"
+        />
+
+
+    <Button
+        android:id="@+id/cam"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/f"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/standart"
+        android:clickable="true"
+        android:fontFamily="@font/hack"
+        android:text="Камера - 100$ (+5$)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10$"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/money"
+        android:fontFamily="@font/hack"
+        />
+
+    <Button
+        android:id="@+id/ssd"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/cam"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/standart"
+        android:clickable="true"
+        android:fontFamily="@font/hack"
+        android:text="ssd - 500$ (+55$)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/stul"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/ssd"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/standart"
+        android:clickable="true"
+        android:fontFamily="@font/hack"
+        android:text="Стул- 1000$ (+115$)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/standart"
+        android:fontFamily="@font/hack"
+        android:text=" Назад "
+        android:layout_below="@+id/cam"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+</RelativeLayout>

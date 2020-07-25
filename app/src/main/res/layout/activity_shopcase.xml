@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shopcase"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:text="Магазин кейсов"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/f"
+        android:fontFamily="@font/hack"
+        android:textColor="@color/colorPrimaryblack"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10$"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/money"
+        android:fontFamily="@font/hack"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Кейс №1  (100$)"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/f"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/casee1"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="10dp"
+        android:text=" Назад "
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/back"/>
+
+</RelativeLayout>

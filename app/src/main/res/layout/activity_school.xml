@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".school"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/hack"
+        android:text="Интерактив"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryblack"
+        android:gravity="center"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подписчики  0"
+        android:layout_above="@+id/back"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/sub"
+        android:fontFamily="@font/hack"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Цена  0"
+        android:layout_above="@+id/sub"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="110dp"
+        android:id="@+id/cena"
+        android:fontFamily="@font/hack"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="0dp"
+        android:text=" Назад "
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/back"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Розыгрыш "
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_below="@+id/f"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/hack"
+        android:id="@+id/rz"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game"
+    android:background="@color/colorPrimary">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/standart"
+    android:layout_marginBottom="5dp"
+    android:text="Опции"
+    android:textColor="@color/colorPrimary"
+    android:textSize="50dp"
+    android:fontFamily="@font/hack"
+    android:id="@+id/opt"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/standart"
+        android:layout_marginBottom="5dp"
+        android:text="Начать стрим"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:layout_above="@+id/opt"
+        android:fontFamily="@font/hack"
+        android:id="@+id/qwe"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Подписчики  0"
+        android:layout_below="@+id/money"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/sub"
+        android:fontFamily="@font/hack"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Буст 5"
+        android:layout_above="@+id/qwe"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/bust"
+        android:fontFamily="@font/hack"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Энергия  0"
+        android:layout_below="@+id/sub"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/energy"
+        android:fontFamily="@font/hack"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10$"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/colorPrimaryblackBt"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/money"
+        android:fontFamily="@font/hack"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:layout_above="@+id/qwe"/>
+
+
+</RelativeLayout>
