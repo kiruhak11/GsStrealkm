@@ -1,2 +1,2 @@
-free
-free2
+free;12
+free2;12
